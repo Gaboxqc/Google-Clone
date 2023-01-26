@@ -2,17 +2,20 @@
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
 }
 
 html{
     font-size: 62.5%;
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
 }
 
 body{
     background: linear-gradient(90deg, #0DCFCF  0%, #0460EA 100%);
-
-
+    max-height: 100vh;
+    overflow: hidden;
 }
 
 a{
@@ -64,7 +67,7 @@ main{
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 50vh;
+    height: 70vh;
 }
 
 main .main-logo{
