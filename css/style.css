@@ -80,12 +80,12 @@ main .main-logo img{
 main .main-input{
     display: flex;
     justify-content: center;
-    width: 28vw;
+    width: 29vw;
     margin-bottom: 20px;
 }
 
 main .main-input-container{
-    width: 28vw;
+    width: 29vw;
     border-radius: 100px;
     border: 1px solid gray;
     display: flex;
@@ -99,6 +99,7 @@ main .main-input input{
     height: 40px;
     border: none;
     outline: none;
+    margin-left: 1vw;
 }
 
 main .main-input-container:hover{
@@ -190,11 +191,11 @@ footer ul li a{
 
 @media (max-width: 1366px){
     main .main-input{
-        width: 40vw;
+        width: 41vw;
     }
 
     main .main-input-container{
-        width: 40vw;
+        width: 41vw;
     }
 
     main .main-input input{
@@ -208,11 +209,11 @@ footer ul li a{
     }
 
     main .main-input{
-        width: 50vw;
+        width: 51vw;
     }
 
     main .main-input-container{
-        width: 50vw;
+        width: 51vw;
     }
 
     main .main-input input{
@@ -221,7 +222,7 @@ footer ul li a{
 
     footer{
         flex-direction: column;
-        height: 8vh;
+        height: max-content;
     }
 }
 
@@ -231,14 +232,15 @@ footer ul li a{
     }
 
     main .main-input{
-        width: 60vw;
+        width: 70vw;
     }
 
     main .main-input-container{
-        width: 60vw;
+        width: 70vw;
     }
 
     main .main-input input{
-        width: 48vw;
+        width: 58vw;
+        margin-left: 2vw;
     }
 }
