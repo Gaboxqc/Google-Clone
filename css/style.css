@@ -158,7 +158,7 @@ main .main-buttons button:hover{
 
 footer{
     width: 100vw;
-    height: 5vh;
+    height: max-content;
     position: absolute;
     bottom: 0;
     display: flex;
@@ -222,7 +222,6 @@ footer ul li a{
 
     footer{
         flex-direction: column;
-        height: max-content;
     }
 }
 
